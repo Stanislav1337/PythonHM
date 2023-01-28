@@ -9,7 +9,7 @@ k = int(input('Введите число: '))
 
 
 
-if k % n == 0 or k % m == 0:
+if k < m*n :
 
     print('YES')
 
